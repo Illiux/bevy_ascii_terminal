@@ -61,7 +61,7 @@ use bevy::prelude::{App, CoreStage, IntoSystemDescriptor, Plugin};
 #[cfg(feature = "camera")]
 pub use renderer::{AutoCamera, TiledCamera, TiledCameraBundle};
 
-pub use renderer::{code_page_437, TerminalFont, TerminalLayout, TerminalMaterial};
+pub use renderer::{code_page_437, TerminalFont, TerminalLayout, TerminalMaterial, TileScaling};
 
 use term_systems::TERMINAL_RENDER;
 pub use to_world::ToWorld;
